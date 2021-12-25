@@ -1,0 +1,129 @@
+.conteiner {
+    width: 1440px;
+    height: 1700px;
+    display: flex;
+    flex-direction: column;
+}
+.list {
+    width: 852px;
+    height: 363px;
+    display: flex;
+    flex-direction: column;
+    margin: 123px 0px 0px 290px;
+}
+.grupa1 {
+    width: 629px;
+    height: 163px;
+    padding: 0px 0px 0px 115px;
+}
+.grupa1 li:first-child {
+    text-decoration: line-through;
+}
+ul {
+    list-style: none;
+}
+ul li {
+    padding-left: 20px;
+    position: relative;
+    margin: 10px;
+}
+ul li::before {
+    content: '✔';
+    position: absolute; 
+    top: 0; 
+    left: 0;
+    color: rgb(0, 68, 255);
+    font-weight: bold;
+}
+.grupa1 li:nth-child(4) {
+    text-transform: uppercase;
+}
+.grupa1 li:nth-child(2) {
+    font-weight: bold;
+}
+.grupa1 li:nth-child(3) {
+    font-style: oblique;
+}
+.grupa1 li:nth-child(3)::before {
+    font-style: normal;
+}
+.grupa2 {
+    width: 681px;
+    height: 125px;
+    display: flex;
+    flex-direction: row;
+}
+.p1 {
+    padding: 40px 0px 0px 0px ;
+}
+.grupa22 li:hover::before {
+    color: red;
+}
+.grupa22 li:hover {
+    color: red;
+}
+.Butons {
+    width: 790px;
+    height: 68px;
+    display: flex;
+    flex-direction: row;
+    margin: 0 auto;
+}
+.text {
+    width: 199px;
+    height: 44px;
+    border-radius: 35px;
+    background: rgb(0, 131, 0);
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    margin: 10px 20px 10px 20px;
+    font-size: 14px;
+}
+.text2 {
+    width: 199px;
+    height: 44px;
+    border-radius: 35px;
+    background: rgb(0, 131, 0);
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    margin: 10px 20px 10px 20px;
+    font-size: 14px;
+}
+.text2:hover {
+    background: rgb(255, 0, 0);
+}
+.text3 {
+    width: 199px;
+    height: 44px;
+    border-radius: 35px;
+    background: rgb(0, 131, 0);
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    margin: 10px 20px 10px 20px;
+    font-size: 14px;
+    justify-content: center;
+}
+.sss:active {
+    color: rgb(0, 68, 255);
+}
+.text3:hover {
+    color: rgb(255, 0, 0);
+}
+.sss {
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+}
+.text-a {
+    width: 765px;
+    height: 194px;
+    margin: 100px 0px 0px 291px;
+}
+.text-a p:first-child::first-line {
+    color: rgb(255, 0, 0);
+}
+.text-a p:last-child::first-letter {
+    color: rgb(255, 0, 0);
+}
